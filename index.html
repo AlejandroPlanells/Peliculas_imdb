@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blank HTML5</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <!-- HEADER -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">AmazinPraim</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Cartelera</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categorias
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Romance</a>
+          <a class="dropdown-item" href="#">Ciencia Funcción</a>
+          <a class="dropdown-item" href="#">Anime</a>
+          <a class="dropdown-item" href="#">Terror</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Todas las categorias</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Proximamente</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Escribe aqui" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+</header>
+<!-- ************************************************************************** -->
+
+    <div class="container mt-3" id="contenedor_peliculas">
+
+      <div id="panel-oculto" ></div>
+
+        <div class="row" id="listado_peliculas">
+            <div class="col-12"><h1>Listado de Peliculas</h1></div>
+        </div>
+
+        <div class="row" id="info_peliculas">
+        </div>
+    </div>
+<div id="cajacookies"> <p> Éste sitio web usa cookies, si permanece aquí acepta su uso. Puede leer más sobre el uso de cookies en nuestra <a href="politica.html">política de privacidad</a>.  <button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar éste mensaje</button> </p> </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <div id="container">
+         <div id="part1">
+             <div id="companyinfo"> <a id="sitelink" href="#">Cines Lys</a>
+                 <p id="title">Cines Valencia</p>
+                 <p id="detail">Cines lys, cines de confianza. </p>
+             </div>
+             <div id="explore">
+                 <p id="txt1">Buscar</p> <a class="link" href="#">Inicio</a> <a class="link" href="#">About</a> <a class="link" href="#">Snippet</a> <a class="link" href="#">Careers</a>
+             </div>
+             <div id="visit">
+                 <p id="txt2">Visitanos</p>
+                 <p class="text">Lincoln House </p>
+                 <p class="text">Paseo Ruzafa, 3</p>
+                 <p class="text">Mumbai 400 026 </p>
+                 <p class="text">Phone: (22) 2363-3611 </p>
+                 <p class="text">Fax: (22) 2363-0350 </p>
+             </div>
+             <div id="legal">
+                 <p id="txt3">Legal</p> <a class="link1" href="#">Terminos y condiciones</a> <a class="link1" href="#">Private Policy</a>
+             </div>
+             <div id="subscribe">
+                 <p id="txt4">Suscribirse a EU</p>
+                 <form> <input id="email" type="email" placeholder="Email"> </form> <a class="waves-effect waves-light btn">Subscribe</a>
+                 <p id="txt5">Connect With US</p> <i class="fab fa-facebook-square social fa-2x"></i> <i class="fab fa-linkedin social fa-2x"></i> <i class="fab fa-twitter-square social fa-2x"></i>
+             </div>
+         </div>
+         <div id="part2">
+             <p id="txt6"><i class="material-icons tiny"> copyright</i>copyright 2020 Alejandro Planells - Todos los derechos para mi :P</p>
+         </div>
+     </div>
+
+    </body>
+</html>
